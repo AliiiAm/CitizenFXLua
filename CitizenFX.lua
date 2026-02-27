@@ -104,7 +104,7 @@ end)
 Citizen.CreateThread = CreateThread
 Citizen.Wait = Wait
 Citizen.RegisterNetEvent = RegisterNetEvent
-Citizen.TriggerNetEvent = TriggerNetEventپ
+Citizen.TriggerNetEvent = TriggerNetEvent
 Citizen.TriggerNetSideEvent = TriggerNetSideEvent
 Citizen.Trace = function(...)
     local args = {...}
@@ -122,5 +122,6 @@ end
 function GetCitizen()
     return Citizen
 end
+
 
 
