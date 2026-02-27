@@ -1,0 +1,7 @@
+<meta>
+    <info author="Alii" description="CitizenFX Lua Emulator For MTA:SA" />
+    <script src="CitizenFX.lua" type="shared" cache="false" />
+
+    <script src="TestClient.lua" type="client" cache="false" />
+    <script src="TestServer.lua" type="server" cache="false" />
+</meta>
