@@ -104,12 +104,23 @@ end)
 Citizen.CreateThread = CreateThread
 Citizen.Wait = Wait
 Citizen.RegisterNetEvent = RegisterNetEvent
-Citizen.TriggerNetEvent = TriggerNetEvent
-
+Citizen.TriggerNetEvent = TriggerNetEventپ
 Citizen.TriggerNetSideEvent = TriggerNetSideEvent
+Citizen.Trace = function(...)
+    local args = {...}
+    for i, v in ipairs(args) do
+        if type(v) == "string" then
+            args[i] = v:gsub("\n$", "")
+        else
+            args[i] = inspect(args[i])
+        end
+    end
+    print(table.unpack(args))
+end
 
 -- For Exports
 function GetCitizen()
     return Citizen
 end
+
 
