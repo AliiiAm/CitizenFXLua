@@ -106,4 +106,10 @@ Citizen.CreateThread = CreateThread
 Citizen.Wait = Wait
 Citizen.RegisterNetEvent = RegisterNetEvent
 Citizen.TriggerNetEvent = TriggerNetEvent
+
 Citizen.TriggerNetSideEvent = TriggerNetSideEvent
+
+-- For Exports
+function GetCitizen()
+    return Citizen
+end
