@@ -11,7 +11,7 @@ Network.Callbacks = {}
 Network.CallbackID = 0
 
 
-Citizen = {} -- I know...
+Citizen = {}
 
 function CreateThread(func)
     local co = coroutine.create(func)
@@ -101,7 +101,6 @@ addEventHandler("CitizenFX:Callback",root,function(id,...)
     RunCallback(id,...)
 end)
 
--- Yes, I know it's a weird thing, but...
 Citizen.CreateThread = CreateThread
 Citizen.Wait = Wait
 Citizen.RegisterNetEvent = RegisterNetEvent
@@ -113,3 +112,4 @@ Citizen.TriggerNetSideEvent = TriggerNetSideEvent
 function GetCitizen()
     return Citizen
 end
+
