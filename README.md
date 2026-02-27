@@ -36,8 +36,8 @@ end,"Hello")
 ```
 
 ## TODO
-- [+] Thread & Runtime
-- [+] Event system
+- [x] Thread & Runtime
+- [x] Event system
 - [ ] NuiManager
   - [ ] Lua & JS Bridge
 - [ ] Promise & Async System
