@@ -38,10 +38,10 @@ end,"Hello")
 ## TODO
 - [x] Thread & Runtime
 - [x] Event system
+- [x] Exports system
 - [ ] NuiManager
   - [ ] Lua & JS Bridge
 - [ ] Promise & Async System
-- [ ] Exports system
 - [ ] Full Citizen API
 
 ## Contributing
